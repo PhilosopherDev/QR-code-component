@@ -152,3 +152,13 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+.card {
+	max-width: 320px;
+	max-height: 497px;
+}
+
+.card img {
+	width: 288px;
+	height: 288px;
+}
