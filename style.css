@@ -142,7 +142,7 @@ table {
 	--color-grayish-blue: hsl(220, 15%, 55%);
 	--color-dark-blue: hsl(218, 44%, 22%);
 
-	--font-family-outfit: 'Ouftit';
+	--font-family-outfit: 'Outfit';
 }
 
 body {
@@ -159,8 +159,7 @@ body {
 .card {
 	background-color: white;
 	max-width: 288px;
-	height: 497px;
-	padding: 16px 16px 40px 16px;
+	padding: 16px 16px 0px 16px;
 	border-radius: 20px;
 	word-wrap: break-word;
 }
@@ -180,6 +179,7 @@ body {
 }
 
 .content {
+	margin: 1rem 0 2.5rem 0;
 	font-family: var(--font-family-outfit);
 	font-size: 15px;
 	font-weight: 400;
